@@ -1,0 +1,42 @@
+#navbar-div {
+  list-style-type: none;
+  margin: 0;
+  overflow: hidden;
+  padding: 5px;
+  font-family: Rockwell;
+}
+
+.nav-right {
+  padding-right: 10px;
+  border-right: 1.5px solid;
+}
+
+#navbar-div div {
+  display: inline;
+  color: #f6f6f6;
+}
+
+.navDiv {
+  padding-right: 15px;
+}
+
+#first-nav-right {
+  padding-left: 10px;
+  float: right;
+}
+
+.nav-right {
+  padding-left: 10px;
+  float: right;
+}
+
+#hamburger-div {
+  padding-left: 10px;
+}
+
+hamburger div {
+  width: 20px;
+  height: 4px;
+  background-color: #f6f6f6;
+  margin: 6px 0;
+}

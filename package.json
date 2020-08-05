@@ -1,0 +1,29 @@
+{
+  "name": "vakhrushi",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "client": "cd client && npm run start",
+    "server": "nodemon app.js",
+    "dev": "npx concurrently --kill-others-on-fail \"npm run server\" \"npm run client\"",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "concurrently": "^5.0.0",
+    "nodemon": "^1.19.3"
+  },
+  "dependencies": {
+    "bcrypt": "^3.0.6",
+    "express": "^4.17.1",
+    "express-session": "^1.16.2",
+    "line-reader": "^0.4.0",
+    "mdbreact": "^4.21.1",
+    "react-body-backgroundcolor": "^1.2.1",
+    "react-wordcloud": "^1.1.1",
+    "sqlite3": "^4.1.0",
+    "stopword": "^0.3.4"
+  }
+}

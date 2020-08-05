@@ -1,0 +1,102 @@
+
+body {
+  background-color: #343434
+}
+
+#header {
+  color: #f6f6f6;
+}
+
+.pageText {
+  padding: 5%;
+  font: 20px Baskerville, serif;
+  text-align: justify;
+}
+
+#textview {
+  max-width: 100%;
+}
+
+#wordcloudContainer {
+  position: absolute;
+  top: 110%;
+  display: inline-block;
+
+}
+
+#wordcloudleft {
+  float: left;
+  margin-left: -170px;
+  max-width: 200px;
+  padding-right: 40px;
+  margin-right: 40px;
+  position: relative
+}
+
+#wordcloudright {
+  float: left;
+  padding-left: 400px;
+  max-width: 200px;
+}
+
+
+/* #wordcloudFloat {
+  float:left;
+} */
+
+#textViewTitle {
+  font: 30px Baskerville, serif;
+  padding: 3%;
+  text-align: center;
+  color: #808080;
+}
+
+.navButton {
+  position: absolute;
+  top: 40%;
+  background-color: #ddd;
+  border-radius: 50%;
+  color: #000;
+  width: 30px;
+  height: 30px;
+}
+
+#rightNavButton {
+  right: 0;
+}
+
+.page {
+  position: flex;
+}
+
+.pageNum {
+  text-align: center;
+  color: #808080;
+}
+
+.marker {
+  background-image: url('mapbox-icon.png');
+  background-size: cover;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.pageBox {
+  width: 16%;
+  height: 10%;
+  margin: 2%;
+  background-color: #fff;
+  text-align: center;
+  border-radius: 3%;
+  float: left;
+}
+
+.pageBox:hover {
+    opacity: 0.8;
+}
+
+.pageBox:active {
+  opacity: 1.2;
+}
